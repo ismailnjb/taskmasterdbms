@@ -1,0 +1,14 @@
+<nav class="bg-blue-500 mb-3 p-3 shadow-lg">
+  <div class="container mx-auto flex justify-between items-center">
+    <a class="text-white text-2xl font-bold" href="https://courses.in28minutes.com">TaskMaster</a>
+    <div class="hidden md:block">
+      <ul class="flex space-x-4">
+        <li><a class="text-white hover:text-gray-300" href="/">Home</a></li>
+        <li><a class="text-white hover:text-gray-300" href="/list-todos">Todos</a></li>
+      </ul>
+    </div>
+    <ul class="flex">
+      <li><a class="text-white bg-red-600 px-3 py-1 rounded hover:bg-red-700 transition-colors duration-200" href="/logout">Logout</a></li>
+    </ul>  
+  </div>
+</nav>
